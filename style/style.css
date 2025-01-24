@@ -75,11 +75,65 @@ a{
   font-weight: 500;
 }
 
+/* banner styles */
+.banner {
+  width: 100%;
+  max-width: 1440px;
+  height: 700px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 141px;
+  margin-right: 141px;
+  gap: 320px;
+  justify-content: space-between;
+  border: 1px solid white;
+}
+.banner-content {
+  width: 700px;
+  height: 400px;
+  margin: 150px auto;
+}
+.banner-title {
+  width: 700px;
+  height: auto;
+  font-size: 64px;
+  font-weight: 700;
+}
+.banner-para{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+.banner-btn{
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: black;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  border: none;
+}
+#emp{
+  color: #FEA301;
+}
+#t-v{
+  color: #01ACFD;
+}
+.banner img {
+  width: 550px;
+  height: auto;
+}
+
+/* Standard Curriculum styles */
 
 
+/* Our Stories style */
 
 
-
+/* Footer styles */
 @media screen and (max-width:576px) {
     
 }
